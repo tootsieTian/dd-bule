@@ -1,0 +1,9 @@
+<view>
+  <scroll-view>
+    <view class="list" style="font-size:35rpx" onTap="buletoothList">
+      <text style="color:#576574">默认打印机：</text>
+      <text style="color:#EE5A24">{{buleName}}</text>
+      <text style="position: absolute;right:10rpx;color:#2e86de">更换</text>
+    </view>
+  </scroll-view>
+</view> 

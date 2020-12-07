@@ -1,0 +1,12 @@
+<view>
+  <scroll-view scroll-y scroll-with-animation>
+    <view a:for="{{list}}" a:for-item="item" data-title="{{item.deviceId}}" data-name="{{item.name}}" data-advertisData="{{item.advertisServiceUUIDs}}" 
+    data a:key="{{item.deviceId}}" onTap="getConnected" class="list" style="display: flex;flex-direction: column;">
+      <view style="font-size: 16px; color: #333;">{{item.name}}</view>
+      <view style="font-size: 16px; color: #333;">{{item.deviceId}}</view>
+    </view>
+  </scroll-view>
+  <button type="primary" onTap="startSearch" loading="{{isLoading}}" style="position:absolute;width:100vw;bottom:0">
+  搜索蓝牙
+  </button>
+</view>

@@ -1,0 +1,8 @@
+<view>
+  <view a:for="{{3}}" class="list">
+    <view class="list-text">
+      <text>单号：</text>
+      <text>23443434</text>
+    </view>
+  </view>
+</view>

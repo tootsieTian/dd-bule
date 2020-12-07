@@ -1,0 +1,11 @@
+<view>
+  <scroll-view class="scroll-list" scroll-y scroll-with-animation>
+    <view   class="list" a:for="{{list}}" a:for-item="item" a:key="{{item.name}}" >
+      <view>{{item.name}}<text class="more" onTap="menu">更多</text></view>
+      <view class="list-text">日期：{{item.date}}</view>
+    </view>
+  </scroll-view>
+  <button type="primary" onTap="toAdd" class="bottom-btn">
+    添加
+  </button>
+</view>

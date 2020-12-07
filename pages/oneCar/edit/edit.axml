@@ -1,0 +1,20 @@
+<view>
+  <scroll-view   class="scroll-list" scroll-y scroll-with-animation >
+  <view class="van-cell" a:for="{{5}}">
+    <view class="van-cell__title van-field__label">
+      <text>编辑</text>
+    </view>
+    <view class="van-cell__value van-field__value">
+      <input type="tel" inputmode="numeric" placeholder="请输入编辑整数" class="van-field__control">
+    </view>
+    </view>
+  </scroll-view>
+  <view class="bottom-btn">
+    <button type="warn" onTap="cancel" class="bottom-btn-left">
+    取消
+    </button>
+    <button type="primary" onTap="save" class="bottom-btn-right">
+    保存
+    </button>
+  </view>
+</view>

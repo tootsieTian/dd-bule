@@ -1,0 +1,31 @@
+.index-list{
+  padding: 3px 0;
+  position: absolute;
+  top: 40vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  background: #fff;
+  border: 1rpx solid #ebedf0;
+
+}
+.item{
+  /* border: 1px solid #dcdde1; */
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7rpx 0;
+  box-sizing: border-box;
+}
+.item image{
+  margin: 0 auto;
+  height: 70rpx;
+  width: 70rpx;
+}
+.item text{
+  color: #747d8c;
+  margin-top: 16rpx;
+  font-size: 25rpx;
+  text-align: center;
+}

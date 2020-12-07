@@ -1,0 +1,92 @@
+/* 列表样式 */
+.scroll-list{
+  padding-bottom: 45px;
+}
+.list {
+  background-color: #ffffff;
+  border-bottom: 1rpx solid #ebedf0;
+  padding: 25rpx 10rpx;
+}
+.list-text{
+  font-size: 26rpx;
+}
+.more{
+  padding: 10rpx 10rpx;
+  color: hsl(218, 94%, 65%);
+  font-size: 28rpx;
+  float: right;
+}
+page {
+  background-color: #f7f8fa;
+}
+.bottom-btn{
+  position: absolute;
+  bottom: 0rpx;
+  right: 0;
+  left: 0;
+}
+.bottom-btn-left{
+  width: 50vw;
+  float: left;
+}
+.bottom-btn-right{
+  width: 50vw;
+  float: right;
+}
+/* 编辑界面 */
+.van-cell {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 16px;
+    overflow: hidden;
+    color: #323233;
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #fff;
+}
+.van-cell::after {
+    position: absolute;
+    box-sizing: border-box;
+    content: ' ';
+    pointer-events: none;
+    right: 16px;
+    bottom: 0;
+    left: 16px;
+    border-bottom: 1px solid #ebedf0;
+    -webkit-transform: scaleY(0.5);
+    transform: scaleY(0.5);
+}
+.van-field__label {
+    -webkit-box-flex: 0;
+    -webkit-flex: none;
+    flex: 2;
+    box-sizing: border-box;
+    width: 6.2em;
+    margin-right: 12px;
+    color: #646566;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+ .van-cell__value {
+
+    flex: 6;
+}
+.van-field__control {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    color: #323233;
+    line-height: inherit;
+    text-align: left;
+    background-color: transparent;
+    border: 0;
+    resize: none;
+}

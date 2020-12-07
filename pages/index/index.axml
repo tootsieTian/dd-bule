@@ -1,0 +1,24 @@
+<view id="index">
+  <view class="index-list" onTap="toPage" data-index="/pages/oneCar/oneCar"> 
+    <view class="item">
+      <image mode="scaleToFill" src="../../img/oneCar.png"/>
+      <text>一人运输单</text>
+    </view>
+    <view class="item" onTap="toPage" data-index="/pages/oneCar/oneCar">
+      <image mode="scaleToFill" src="../../img/twoCar.png"/>
+      <text>二人运输单</text>
+    </view>
+    <view class="item" onTap="toPage" data-index="/pages/oneCar/oneCar">
+      <image mode="scaleToFill" src="../../img/cl.png"/>
+      <text>现场地材单</text>
+    </view>
+    <view class="item" onTap="toPage" data-index="/pages/oneCar/oneCar">
+      <image mode="scaleToFill" src="../../img/time.png"/>
+      <text>台班单</text>
+    </view>
+    <view class="item" onTap="toPage" data-index="/pages/oneCar/oneCar">
+      <image mode="scaleToFill" src="../../img/sao.png"/>
+      <text>一人运输单</text>
+    </view>
+  </view>
+</view>
